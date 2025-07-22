@@ -1,0 +1,6 @@
+datasets/
+.venv/
+train_simple
+train_metrices.csv
+
+
