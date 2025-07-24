@@ -64,41 +64,6 @@ matplotlib
 seaborn
 
 opencv-python
-🚀 How to Run
-▶️ Centralized (Baseline) Training
-bash
-Copy
-Edit
-python train_simple.py
-🌐 Federated Training
-bash
-Copy
-Edit
-python train.py
-🧪 Evaluate Global Model
-bash
-Copy
-Edit
-python evaluate_global_model.py
-📈 Plot Training Metrics
-bash
-Copy
-Edit
-python plot_metrics.py
-All training logs are saved to training_metrics.csv.
-
-📊 Results and Visualization
-Sample outputs from the project (you can replace with actual results):
-
-Accuracy vs. Federated Rounds
-
-Loss vs. Rounds
-
-Confusion Matrix
-
-ROC Curve
-
-Use plot_metrics.py to generate all visualizations from training_metrics.csv.
 
 📚 Dataset
 This project assumes the availability of preprocessed diabetic retinopathy datasets (e.g., APTOS, EyePACS, IDRiD).
@@ -116,3 +81,15 @@ data/
 │   ├── images/
 │   └── labels.csv
 ...
+
+🚀 How to Run
+▶️ Centralized (Baseline) Training
+python train_simple.py
+🌐 Federated Training
+python train.py
+🧪 Evaluate Global Model
+python evaluate_global_model.py
+📈 Plot Training Metrics
+python plot_metrics.py
+🧪 client training
+python train.py client 0
